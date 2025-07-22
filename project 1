@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Special project 
+        </title>
+    </head>
+    <body>
+        <h1> Special project </h1>
+        <p>Close to me</p>
+        <audio controls autoplay>
+            <source src="ctm.mp3" type="audio/mpeg">
+        </audio>
+        <p> Vanity  </p>
+        <audio controls autoplay>
+            <source src="vj.mp3" type="audio/mpeg">
+        </audio>
+        <p> Creation Of Hatred </p>
+        <audio controls autoplay>
+            <source src="coh.mp3" type="audio/mpeg">
+        </audio>
+        <P> Curiosity </P>
+        <audio controls autoplay>
+            <source src="c.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
