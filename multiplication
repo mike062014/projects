@@ -1,0 +1,17 @@
+<html>
+    <body>
+        let num1 = 5;
+        let num2 = 10;
+        let product = num1 * num2; // product will be 50
+        console.log(product); // Output: 50
+        let x = 7;
+        x *= 3; // Equivalent to x = x * 3; x will be 21
+        console.log(x); // Output: 21
+        function calculateProduct(a, b) {
+  return a * b;
+}
+
+        let result = calculateProduct(8, 4); // result will be 32
+        console.log(result); // Output: 32
+    </body>
+</html>
