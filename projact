@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <script>
+        function sumAll() {
+        let total = 0;
+        for (let i = 0; i < arguments.length; i++) { total +=arguments[i]; } return total; } console.log(sumAll(1, 2, 3)); //
+            Output: 6 console.log(sumAll(10, 20, 30, 40, 50)); // Output: 150
+
+            function sumArgs(...args) {
+  return args.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+}
+
+console.log(sumArgs(1, 2, 3)); // Output: 6
+console.log(sumArgs(10, 20, 30, 40, 50)); // Output: 150
+
+function sumUsingArrayFrom() {
+const argsArray = Array.from(arguments);
+return argsArray.reduce((acc, val) => acc + val, 0);
+}
+
+console.log(sumUsingArrayFrom(1, 2, 3)); // Output: 6
+
+function sumUsingSpread() {
+const argsArray = [...arguments];
+return argsArray.reduce((acc, val) => acc + val, 0);
+}
+
+console.log(sumUsingSpread(10, 20, 30)); // Output: 60
+</script>
+</body>
